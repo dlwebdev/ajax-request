@@ -22,7 +22,7 @@ mocha
   * {string} ``options.method`` [options.method=GET]  
   The http request type
   * {object} ``options.data``  
-  if the request type is `GET`, it's appended to query string of the URL, or it's sended to remote of body.
+  if the request type is `GET`, it's appended to query string of the URL, or it's sent to remote of body.
   * {object} ``options.headers``  
   An object containing request headers.
   * {string} ``options.encoding``  
