@@ -16,12 +16,12 @@ mocha
 
 ## API
 ### request(options, callback)
-* {obejct|string} ``options`` required  
+* {object|string} ``options`` required  
   If the options is string, it will send get request.
   * {string} ``options.url`` required
   * {string} ``options.method`` [options.method=GET]  
   The http request type
-  * {obejct} ``options.data``  
+  * {object} ``options.data``  
   if the request type is `GET`, it's appended to query string of the URL, or it's sended to remote of body.
   * {object} ``options.headers``  
   An object containing request headers.
@@ -58,7 +58,7 @@ request.post({
 ```
 
 ### .download(options, callback)
-* {obejct} ``options`` required
+* {object} ``options`` required
   * ``options.url`` {string} required
   * ``options.ignore`` {boolean} [options.ignore=false]  
   Is the filepath ignore case. 
